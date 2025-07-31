@@ -73,7 +73,7 @@ Install Prometheus:
 helm install prometheus prometheus-community/prometheus --namespace prometheus
 ```
 
-![Screenshot from 2025-07-31 21-40-41](#)
+<img width="1920" height="1080" alt="Screenshot from 2025-07-31 23-18-18" src="https://github.com/user-attachments/assets/f695fe54-bf26-4284-b789-96d2d49567c5" />
 
 ---
 
@@ -91,7 +91,7 @@ Install Grafana:
 helm install grafana grafana/grafana --namespace grafana
 ```
 
-![Uploading Screenshot from 2025-07-31 23-08-33.png…]()
+<img width="1920" height="1080" alt="Screenshot from 2025-07-31 23-17-29" src="https://github.com/user-attachments/assets/a8d99585-c0ca-4cc2-8cec-ebed441314f5" />
 
 ---
 
