@@ -91,7 +91,7 @@ Install Grafana:
 helm install grafana grafana/grafana --namespace grafana
 ```
 
-![Screenshot from 2025-07-31 21-39-57](#)
+![Uploading Screenshot from 2025-07-31 23-08-33.png…]()
 
 ---
 
