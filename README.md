@@ -30,4 +30,53 @@ minikube version
 minikube start
 
 
+Add Helm Repositories
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo add grafana https://grafana.github.io/helm-charts
+helm repo update
+
+Create Namespace
+kubectl create namespace prometheus
+
+Install Prometheus
+helm install prometheus prometheus-community/prometheus --namespace prometheus
+
+<img width="1920" height="1080" alt="Screenshot from 2025-07-31 21-40-41" src="https://github.com/user-attachments/assets/beff42ec-03a7-4e7b-a329-53cb9aa28714" />
+
+
+Create Namespace
+kubectl create namespace grafana
+
+Install grafana
+helm install grafana grafana/grafana --namespace monitoring
+
+<img width="1920" height="1080" alt="Screenshot from 2025-07-31 21-39-57" src="https://github.com/user-attachments/assets/df5f9fb2-a966-4eb6-ad44-2f800dcc3f56" />
+
+
+Add Prometheus as Grafana Data Source
+Open Grafana UI
+
+Go to Settings → Data Sources
+
+Click Add Data Source
+
+Select Prometheus
+
+URL: http://192.168.49.2:30567
+
+
+Click Save & Test
+
+import Dashboards (Optional)
+Go to Dashboard → Import
+
+Use popular dashboard IDs (e.g., 315, 186
+
+
+Minikube cluster dashboard 
+![Uploading Screenshot from 2025-07-31 21-43-12.png…]()
+
+
+
+
 
