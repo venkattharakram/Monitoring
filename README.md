@@ -122,4 +122,4 @@ helm install grafana grafana/grafana --namespace grafana
 
 ## 📉 Minikube Cluster Dashboard
 
-![Screenshot from 2025-07-31 21-43-12](#)
+<img width="1920" height="1080" alt="Screenshot from 2025-07-31 23-16-08" src="https://github.com/user-attachments/assets/2a248254-1423-4bc1-8099-1670285ac7b5" />
